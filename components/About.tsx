@@ -12,8 +12,8 @@ const About = () => {
         <div className="flex flex-col lgl:flex-row gap-16">
             <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
                 <p>
-                    Hello! My Name is Jason Wijaya. I'm an alumni student at 
-                    <span className="text-textGreen"> Brawijaya University who graduate in 2024</span>. 
+                    Hello! My Name is Jason Wijaya. I am a graduate of
+                    <span className="text-textGreen"> Brawijaya University, Computer Science Faculty, and Computer Engineering Study Program in 2024</span>. 
                     When I was still studying, I was the Vice Chairman of
                     <span className="text-textGreen"> Raion Community </span>.
                     Then, I also participated in Merdeka Belajar in the 

@@ -13,7 +13,7 @@ const Contact = () => {
         </p>
         <a href="mailtoo:jasonwijaya2@gmail.com">
             <button className='w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300'>
-                Email Me!
+                Email Me
             </button>
         </a>
     </section>

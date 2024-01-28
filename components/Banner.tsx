@@ -19,9 +19,9 @@ const Banner = () => {
               animate={{ y: 0, opacity: 1 }} 
               transition={{ duration: 0.5, delay: 0.7 }}
               className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col">
-                Jason Wijaya. 
+                Jason Wijaya 
                 <span className="text-textDark mt-2 lgl:mt-4">
-                    Beginner Frontend Engineering
+                    Front-End Developer
                 </span>
             </motion.h1>
             <motion.p
@@ -30,9 +30,9 @@ const Banner = () => {
               transition={{ duration: 0.5, delay: 0.8 }}
               className="text-base md:max-w-[650px] text-textDark font-medium">
                 {" "}
-                I'm a fresh graduate student of Brawijaya University, Computer Science Faculty, and Computer Engineering Study Program at 2024.
-                I'm a beginner Front-End Developer. I'd have learned Javascript, Node.js, ReactJS, and Chakra UI.
-                I create this portofolio page using Next.js and Tailwindcss while learning it.
+                I am a fresh graduate student of Brawijaya University, Computer Science Faculty, and Computer Engineering Study Program in 2024.
+                I am a beginner Front-End Developer. I have learned Javascript, Node.js, ReactJS, and Chakra UI.
+                I create this portfolio page using Next.js and Tailwindcss while learning it.
                 {" "}
                 <a href="https://www.linkedin.com/in/jason-wijaya4444" target="_blank">
                     <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
