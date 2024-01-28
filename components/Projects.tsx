@@ -50,13 +50,13 @@ const Projects = () => {
                     <div className='text-2xl flex gap-4'>
                         <a
                           className='hover:text-textGreen duration-300'
-                          href=""
+                          href="https://github.com/JasonWijaya2/portofolioweb"
                           target='_blank'>
                             <TbBrandGithub />
                         </a>
                         <a
                           className='hover:text-textGreen duration-300'
-                          href=""
+                          href="https://jasonwijayaportofolio-jason-wijayas-projects.vercel.app/"
                           target='_blank'>
                             <RxOpenInNewWindow />
                         </a>
