@@ -77,7 +77,7 @@ const Projects = () => {
                     <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
                         This News Website can sort by category, country, and search for the topic. 
                         This News Website using News API.
-                        This website can only be run via localhost due to CORS from the News API and with limit request.
+                        This website can only be run via localhost due to CORS from the News API and with limited request.
                         {" "}
                         <a 
                           href='https://newsapi.org/'
