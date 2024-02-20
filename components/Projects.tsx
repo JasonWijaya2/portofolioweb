@@ -1,4 +1,4 @@
-import { portofolioImg } from '@/public'
+import { newsWebsite, portofolioImg } from '@/public'
 import SectionTitle from './SectionTitle'
 import Image from 'next/image'
 import { TbBrandGithub } from 'react-icons/tb'
@@ -65,6 +65,55 @@ const Projects = () => {
             </div>
         </div>
         {/* Project Two */}
+        <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
+            <div className='flex flex-col xl:flex-row gap-6'>
+                <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-left xl:-mr-16 z-10'>
+                    <p className='font-titleFont text-textGreen text-sm tracking-wide'>
+                        Feature Project
+                    </p>
+                    <h3 className='text-2xl font-bold'>
+                        Simple News Website
+                    </h3>
+                    <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
+                        This News Website can sort by category, country, and search for the topic. 
+                        This News Website using News API.
+                        This website can only be run via localhost due to CORS from the News API and with limit request.
+                        {" "}
+                        <a 
+                          href='https://newsapi.org/'
+                          target='_blank' 
+                          className='text-textGreen'>
+                            Click here to see News API
+                        </a>
+                    </p>
+                    <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
+                        <li>Reactjs</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap</li>
+                        <li>Vite</li>
+                        <li>News API</li>
+                    </ul>
+                    <div className='text-2xl flex gap-4'>
+                        <a
+                          className='hover:text-textGreen duration-300'
+                          href="https://github.com/JasonWijaya2/news-website"
+                          target='_blank'>
+                            <TbBrandGithub />
+                        </a>
+                    </div>
+                </div>
+                <a
+                  className='w-full xl:w-1/2 h-auto relative group'
+                  href=""
+                  target='_blank'>
+                  <div>
+                      <Image className="w-full h-full object-contain"
+                        src={newsWebsite}
+                        alt='newsWebsite'/>
+                  </div>
+                </a>
+            </div>
+        </div>
         {/* Project Three */}
     </section>
   )

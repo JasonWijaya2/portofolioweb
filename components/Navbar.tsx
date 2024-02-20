@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { logo } from "@/public";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { MdOutlineClose } from "react-icons/md";
 import { TbBrandGithub } from "react-icons/tb";
