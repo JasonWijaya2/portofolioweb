@@ -209,7 +209,7 @@ const Navbar = () => {
                                             Resume
                                         </motion.button>
                                     </a>
-                                    <div className="flex gap-4 mt-10">
+                                    <div className="flex items-center gap-4 my-10">
                                         <motion.a
                                           initial={{ y:20, opacity:0}}
                                           animate={{ y:0, opacity: 1}}
