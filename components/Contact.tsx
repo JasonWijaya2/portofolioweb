@@ -6,7 +6,7 @@ const Contact = () => {
         <p className='font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide'>
             Contact
         </p>
-        <h2 className='flex justify-center items-center font-titleFont text-5xl font-semibold'>You can send an email</h2>
+        <h2 className='flex justify-center items-center text-center font-titleFont text-5xl font-semibold'>You can send an email</h2>
         <p className='max-w-[600px] text-center text-textDark'>
             Feel free to contact me for any questions, collaborations or just to say hi. 
             My inbox is always open. When you send me an email, I'll try my best to get back to you.
