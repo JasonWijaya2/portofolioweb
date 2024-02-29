@@ -65,8 +65,18 @@ const Projects = () => {
             </div>
         </div>
         {/* Project Two */}
-        <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
-            <div className='flex flex-col xl:flex-row gap-6'>
+        <div className='w-full flex flex-col items-center justify-center gap-28 mt-10 lg:-ml-8'>
+            <div className='flex flex-col xl:flex-row-reverse gap-6'>
+                <a
+                 className='w-full xl:w-1/2 h-auto relative group'
+                 href="https://github.com/JasonWijaya2/news-website"
+                 target='_blank'>
+                <div>
+                    <Image className="w-full h-full object-contain"
+                        src={newsWebsite}
+                        alt='newsWebsite'/>
+                </div>
+                </a>
                 <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-start text-left xl:-mr-16 z-10'>
                     <p className='font-titleFont text-textGreen text-sm tracking-wide'>
                         Feature Project
@@ -102,16 +112,6 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <a
-                  className='w-full xl:w-1/2 h-auto relative group'
-                  href="https://github.com/JasonWijaya2/news-website"
-                  target='_blank'>
-                  <div>
-                      <Image className="w-full h-full object-contain"
-                        src={newsWebsite}
-                        alt='newsWebsite'/>
-                  </div>
-                </a>
             </div>
         </div>
         {/* Project Three */}
