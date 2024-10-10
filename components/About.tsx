@@ -18,7 +18,9 @@ const About = () => {
                     <span className="text-textGreen"> Raion Community </span>.
                     Then, I also participated in Merdeka Belajar in the 
                     <span className="text-textGreen"> Ruangguru CAMP </span> 
-                    Independent Study program.
+                    Independent Study program. Currently, I am completing an internship at 
+                    <span className="text-textGreen">Kalbe International Pte. Ltd. </span>
+                    as an IT Developer.
                 </p>
                 <p>Here are a few technologies I have been learned: </p>
                 <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
@@ -105,6 +107,30 @@ const About = () => {
                             <AiFillThunderbolt />
                         </span>
                         Git
+                    </li>
+                    <li className="flex items-center gap-2">
+                        <span className="text-textGreen">
+                            <AiFillThunderbolt />
+                        </span>
+                        Express.js
+                    </li>
+                    <li className="flex items-center gap-2">
+                        <span className="text-textGreen">
+                            <AiFillThunderbolt />
+                        </span>
+                        MySQL
+                    </li>
+                    <li className="flex items-center gap-2">
+                        <span className="text-textGreen">
+                            <AiFillThunderbolt />
+                        </span>
+                        Prisma ORM
+                    </li>
+                    <li className="flex items-center gap-2">
+                        <span className="text-textGreen">
+                            <AiFillThunderbolt />
+                        </span>
+                        React Native
                     </li>
                 </ul>
             </div>

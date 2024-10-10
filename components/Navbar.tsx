@@ -103,7 +103,7 @@ const Navbar = () => {
                             </motion.li>
                         </Link>
                     </ul>
-                    <a href="https://bitly.ws/3aXYT" target="_blank">
+                    <a href="https://drive.google.com/file/d/1sCfTG7Dq6QoZFIDMNT8SezmxAcowafG8/view?usp=sharing" target="_blank">
                         <motion.button
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
@@ -199,7 +199,7 @@ const Navbar = () => {
                                             </motion.li>
                                         </Link>
                                     </ul>
-                                    <a href="https://bitly.ws/3aXYT" target="_blank" className="mdl:ml-4 mt-4">
+                                    <a href="https://drive.google.com/file/d/1sCfTG7Dq6QoZFIDMNT8SezmxAcowafG8/view?usp=sharing" target="_blank" className="mdl:ml-4 mt-4">
                                         <motion.button
                                         initial={{ opacity: 0 }}
                                         animate={{ opacity: 1 }}
@@ -223,7 +223,7 @@ const Navbar = () => {
                                           initial={{ y:20, opacity:0}}
                                           animate={{ y:0, opacity: 1}}
                                           transition={{ delay: 1, ease:"easeIn"}}
-                                          href="https://www.instagram.com/kingjason4real/" target="_blank">
+                                          href="https://www.instagram.com/jasonwijaya4444/" target="_blank">
                                             <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                                                 <SlSocialInstagram />
                                             </span>

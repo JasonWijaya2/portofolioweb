@@ -2,20 +2,30 @@ import { useState } from "react"
 import SectionTitle from "./SectionTitle"
 import Raion from "./experience/Raion"
 import Ruangguru from "./experience/Ruangguru";
+import KalbeInternational from "./experience/KalbeInternational";
 
 
 const Experience = () => {
     const [expRaion, setExpRaion] = useState(true);
     const [expRuangguru, setExpRuangguru] = useState(false);
+    const [expKalbeInternational, setExpKalbeInternational] = useState(false);
 
     const handleRaion = () => {
         setExpRaion(true)
         setExpRuangguru(false)
+        setExpKalbeInternational(false)
     };
 
     const handleRuangguru = () => {
         setExpRaion(false)
         setExpRuangguru(true)
+        setExpKalbeInternational(false)
+    };
+
+    const handleRKalbeInternational = () => {
+        setExpRaion(false)
+        setExpRuangguru(false)
+        setExpKalbeInternational(true)
     };
   return (
     <section
@@ -44,9 +54,20 @@ const Experience = () => {
                     border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                     Ruangguru CAMP
                 </li>
+                <li 
+                  onClick={handleRKalbeInternational}
+                  className={`${
+                    expKalbeInternational
+                        ? "border-l-textGreen text-textGreen" 
+                        : "border-l-hoverColor text-textDark"
+                        } 
+                    border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                    Kalbe International
+                </li>
             </ul>
             {expRaion && <Raion />}
             {expRuangguru && <Ruangguru />}
+            {expKalbeInternational && <KalbeInternational />}
         </div>
      </section>
   )
