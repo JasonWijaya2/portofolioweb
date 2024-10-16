@@ -31,7 +31,7 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium">
         {" "}
         Results-oriented computer engineer with expertise in full-stack web development, hardware design, and project management. 
-        Proficient in ReactJS, React Native, Express.js, and MySQL, with hands-on experience 
+        Proficient in ReactJS, React Native, Express.js, and SQL Server, with hands-on experience 
         in developing user-centered applications and solving technical challenges in fast-paced environments. 
         Passionate about learning new technologies and improving both front-end and back-end development 
         skills. Seeking to contribute to impactful full-stack development projects.

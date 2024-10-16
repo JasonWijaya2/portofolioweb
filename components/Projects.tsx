@@ -196,7 +196,7 @@ const Projects = () => {
                             <li>Reactjs</li>
                             <li>Javascript</li>
                             <li>ChakraUI</li>
-                            <li>MySQL</li>
+                            <li>SQL Server</li>
                             <li>Prisma ORM</li>
                             <li>Express.js</li>
                         </ul>
@@ -245,7 +245,7 @@ const Projects = () => {
                         </p>
                         <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                             <li>React Native</li>
-                            <li>MySQL</li>
+                            <li>SQL Server</li>
                             <li>Prisma ORM</li>
                             <li>Express.js</li>
                         </ul>
